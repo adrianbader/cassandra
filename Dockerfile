@@ -4,5 +4,5 @@ USER cassandra:cassandra
 
 ENTRYPOINT ["docker-entrypoint.sh"]
 
-CMD ["cassandra", "-f -R"]
+CMD ["cassandra", "-R"]
 
